@@ -1,0 +1,305 @@
+/* styles.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(9, 182, 250, 0.856);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+    
+}
+
+nav li a{
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    color: rgb(190, 32, 32);
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #e7e709;
+    text-decoration: none;
+}
+
+
+.logo{
+    padding: 0 15px;
+}
+.logo img{
+    width: 95px;
+    height: auto;
+}
+
+.iconos {
+    display: flex;
+    
+}
+
+.iconos a {
+    margin: 0 10px;
+    color: #ca2424;
+    font-size: 18px;
+}
+.iconos a:hover {
+   
+    color: #ca1c1c;
+    
+}
+
+
+/* aquì se implementan los estilos css para la seccion uno*/
+
+.principal {
+    background-image: url('../imagen/3D_01.png');
+    background-size:95%;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidouno {
+    width: 200%;
+    height: 600px;
+    text-align: center;
+    color: #17e922;
+    padding: 2px;
+    background: #97919100;
+}
+
+.contenidouno h1{
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+
+.contenidouno h2{
+    margin-bottom: 25px;
+}
+
+.contenidouno p{
+    margin-bottom: 35px;
+}
+
+.buttons {
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+
+}
+
+.button {
+    background-color: #1bd6bd;
+    color: #ec1515;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:solid;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+.button:hover {
+    background-color: #8fa4e7;
+    color: #283535;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 0 30px;
+}
+
+
+/*estilos para el contenido dos*/
+
+.banner {
+    background-image: url('../imagen/small-3871893_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidodos {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #26d469;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contenidodos h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.figuras {
+    display: flex;
+    justify-content: center;
+}
+
+.figuras a {
+    margin: 0 10px;
+    color: #faf7f7;
+    font-size: 18px;
+}
+.figuras a:hover {
+   
+    color: #f3e306;
+    
+}
+
+
+
+
+/*creando la seccion 03 del contenido de la pagina*/
+
+  .galeria {
+    background-color: #d5eb58;
+    padding: 50px 0;
+    border-radius: 20px;
+   
+    }
+
+  .galeria h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #33d4e9;
+  }
+
+  .galeria p {
+    color: #0a2ae0;
+    text-align: center;
+    font-size: 27px;
+    line-height:10px ;
+    margin-bottom: 20px;
+  }
+
+  .contenidotres {
+    max-width: 1200px;
+    height: 450px;
+    margin: 10 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  }
+
+  .contenidotres .columna {
+    flex: 1;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .contenidotres .columna img {
+    max-width: 60%;
+    height: auto;
+    border: 2px solid #04416a;
+    padding: 5px;
+    border-radius: 4px;
+    
+  }
+
+  .contenidotres .columna p {
+    margin-top: 6px;
+    text-align: justify;
+    line-height: 20px;
+  }
+
+  .contenidotres .columna a {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #3a0eb1;
+    color: #daf012;
+    text-decoration: none;
+    border: 10px solid #3be906;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .contenidotres .columna a:hover {
+    background-color: #1564be;
+  }
+
+
+  
+  /*creando el Footer - pie de pagina final de
+  la pagina*/
+  
+  .footer {
+    background-color: #d81bbf;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .filas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  h3, p {
+    color: #10d462;
+    margin: 0;
+  }
+  
+  .social-icons1 {
+    display: flex;
+  }
+  
+
+
+  /* Aquí puedes agregar tu CSS */
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #dff519;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #1ea75c; /* Cambia esto según el color que desees para el hover */
+}
+  
+
+  
